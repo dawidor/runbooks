@@ -1,4 +1,4 @@
-Workflow VMs-List-Workflow
+Workflow VMs-List-Workflow2
 {
   Write-Output "starting..."
 
