@@ -4,6 +4,10 @@ Workflow VMs-List-Workflow
 
   $VMs = GET-AzureVM
 
+  $SUBSC = Get-AzureSubscription
+
+  Write-Output "Subs: $SUBSC"
+
   if (!$VMs) {
       Write-Output "No VMs found"
   } else {
